@@ -1,4 +1,4 @@
-# Resource Controller for Laravel 5
+# RESTful Controller for Laravel 8
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -6,7 +6,7 @@
 [![Scrutinizer Code Quality][scrutinizer-code-quality]][link-scrutinizer]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Resource Controller for Laravel 5
+RESTful Controller for Laravel 8
 
 ## Install
 
