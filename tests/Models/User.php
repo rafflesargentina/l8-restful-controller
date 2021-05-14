@@ -1,6 +1,6 @@
 <?php
 
-namespace RafflesArgentina\ResourceController\Models;
+namespace RafflesArgentina\RestfulController\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

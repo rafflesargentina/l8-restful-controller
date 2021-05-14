@@ -1,7 +1,7 @@
 <?php
 
 $factory->define(
-    \RafflesArgentina\ResourceController\Models\User::class, function (\Faker\Generator $faker) {
+    \RafflesArgentina\RestfulController\Models\User::class, function (\Faker\Generator $faker) {
         return [
         'name' => $faker->name,
         'email' => $faker->email,
@@ -11,7 +11,7 @@ $factory->define(
 );
 
 $factory->define(
-    \RafflesArgentina\ResourceController\Models\Related::class, function (\Faker\Generator $faker) {
+    \RafflesArgentina\RestfulController\Models\Related::class, function (\Faker\Generator $faker) {
         return [
         'a' => str_random(),
         'b' => str_random(),

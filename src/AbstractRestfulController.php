@@ -1,6 +1,6 @@
 <?php
 
-namespace RafflesArgentina\ResourceController;
+namespace RafflesArgentina\RestfulController;
 
 use Lang;
 use Validator;
@@ -10,12 +10,12 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\View;
 use Illuminate\Foundation\Http\FormRequest;
 
-use RafflesArgentina\ResourceController\Contracts\ResourceControllerInterface;
-use RafflesArgentina\ResourceController\Exceptions\ResourceControllerException;
-use RafflesArgentina\ResourceController\Traits\FormatsValidJsonResponses;
+use RafflesArgentina\RestfulController\Contracts\RestfulControllerInterface;
+use RafflesArgentina\RestfulController\Exceptions\RestfulControllerException;
+use RafflesArgentina\RestfulController\Traits\FormatsValidJsonResponses;
 
-abstract class AbstractResourceController extends BaseController
-                                       implements ResourceControllerInterface
+abstract class AbstractRestfulController extends BaseController
+                                       implements RestfulControllerInterface
 {
     use FormatsValidJsonResponses;
 
@@ -104,7 +104,7 @@ abstract class AbstractResourceController extends BaseController
     protected $warningFlashMessageKey = 'rafflesargentina.status.warning';
 
     /**
-     * Create a new AbstractResourceController instance.
+     * Create a new AbstractRestfulController instance.
      *
      * @return void
      */
@@ -140,7 +140,7 @@ abstract class AbstractResourceController extends BaseController
      *
      * @param Request $request The request object.
      *
-     * @throws ResourceControllerException
+     * @throws RestfulControllerException
      *
      * @return mixed
      */
@@ -172,7 +172,7 @@ abstract class AbstractResourceController extends BaseController
      * @param Request $request The request object.
      * @param string  $key     The model key.
      *
-     * @throws ResourceControllerException
+     * @throws RestfulControllerException
      *
      * @return mixed
      */
@@ -184,7 +184,7 @@ abstract class AbstractResourceController extends BaseController
      * @param Request $request The request object.
      * @param string  $key     The model key.
      *
-     * @throws ResourceControllerException
+     * @throws RestfulControllerException
      *
      * @return mixed
      */
@@ -227,7 +227,7 @@ abstract class AbstractResourceController extends BaseController
      *
      * @param string $view The view.
      *
-     * @throws ResourceControllerException
+     * @throws RestfulControllerException
      *
      * @return void
      */
@@ -240,7 +240,7 @@ abstract class AbstractResourceController extends BaseController
                 $message = 'Requested page couldn\'t be loaded because the view file is missing: '.$view;
             }
 
-            throw new ResourceControllerException($message);
+            throw new RestfulControllerException($message);
         }
     }
 
@@ -388,7 +388,7 @@ abstract class AbstractResourceController extends BaseController
     /**
      * Throw an exception if repository property is not set.
      *
-     * @throws ResourceControllerException
+     * @throws RestfulControllerException
      *
      * @return void
      */
@@ -401,14 +401,14 @@ abstract class AbstractResourceController extends BaseController
                 $message = '$repository property must be set.';
             }
 
-            throw new ResourceControllerException($message);
+            throw new RestfulControllerException($message);
         }
     }
 
     /**
      * Throw an exception if resourceName property is not set.
      *
-     * @throws ResourceControllerException
+     * @throws RestfulControllerException
      *
      * @return void
      */
@@ -421,7 +421,7 @@ abstract class AbstractResourceController extends BaseController
                 $message = '$resourceName property must be set.';
             }
 
-            throw new ResourceControllerException($message);
+            throw new RestfulControllerException($message);
         }
     }
 }

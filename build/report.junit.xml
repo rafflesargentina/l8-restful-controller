@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="66" assertions="0" errors="66" warnings="0" failures="0" skipped="0" time="0.224930">
-    <testsuite name="ResourceController Test Suite" tests="66" assertions="0" errors="66" warnings="0" failures="0" skipped="0" time="0.224930">
-      <testsuite name="RafflesArgentina\RestfulController\ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="0.116996">
-        <testcase name="testIndexRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="14" assertions="0" time="0.084708">
+  <testsuite name="" tests="66" assertions="0" errors="66" warnings="0" failures="0" skipped="0" time="0.383755">
+    <testsuite name="ResourceController Test Suite" tests="66" assertions="0" errors="66" warnings="0" failures="0" skipped="0" time="0.383755">
+      <testsuite name="RafflesArgentina\RestfulController\ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="0.156923">
+        <testcase name="testIndexRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="14" assertions="0" time="0.094533">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testIndexRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -19,7 +19,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testIndexRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="26" assertions="0" time="0.002173">
+        <testcase name="testIndexRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="26" assertions="0" time="0.003190">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testIndexRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -35,7 +35,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testCreateRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="41" assertions="0" time="0.002072">
+        <testcase name="testCreateRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="41" assertions="0" time="0.002756">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testCreateRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -51,7 +51,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="50" assertions="0" time="0.002571">
+        <testcase name="testStoreRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="50" assertions="0" time="0.003203">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testStoreRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -67,7 +67,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testShowRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="59" assertions="0" time="0.002716">
+        <testcase name="testShowRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="59" assertions="0" time="0.002790">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testShowRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -83,7 +83,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testShowRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="70" assertions="0" time="0.001954">
+        <testcase name="testShowRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="70" assertions="0" time="0.002637">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testShowRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -99,7 +99,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testShowRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="82" assertions="0" time="0.001921">
+        <testcase name="testShowRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="82" assertions="0" time="0.003664">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testShowRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -115,7 +115,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testEditRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="90" assertions="0" time="0.001920">
+        <testcase name="testEditRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="90" assertions="0" time="0.002767">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testEditRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -131,7 +131,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testEditRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="101" assertions="0" time="0.001972">
+        <testcase name="testEditRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="101" assertions="0" time="0.002960">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testEditRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -147,7 +147,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testEditRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="113" assertions="0" time="0.002037">
+        <testcase name="testEditRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="113" assertions="0" time="0.002916">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testEditRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -163,7 +163,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="121" assertions="0" time="0.002425">
+        <testcase name="testUpdateRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="121" assertions="0" time="0.002813">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testUpdateRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -179,7 +179,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="132" assertions="0" time="0.002376">
+        <testcase name="testUpdateRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="132" assertions="0" time="0.005971">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testUpdateRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -195,7 +195,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="144" assertions="0" time="0.001957">
+        <testcase name="testUpdateRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="144" assertions="0" time="0.004683">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testUpdateRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -211,7 +211,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testDestroyRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="152" assertions="0" time="0.002074">
+        <testcase name="testDestroyRoute" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="152" assertions="0" time="0.004250">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testDestroyRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -227,7 +227,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testDestroyRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="163" assertions="0" time="0.001892">
+        <testcase name="testDestroyRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="163" assertions="0" time="0.008470">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testDestroyRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -243,7 +243,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testDestroyRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="175" assertions="0" time="0.002229">
+        <testcase name="testDestroyRouteWithInexistentModel" class="RafflesArgentina\RestfulController\ApiRestfulControllerTest" classname="RafflesArgentina.RestfulController.ApiRestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ApiResourceControllerTest.php" line="175" assertions="0" time="0.009321">
           <error type="Error">RafflesArgentina\RestfulController\ApiRestfulControllerTest::testDestroyRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -260,8 +260,8 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
       </testsuite>
-      <testsuite name="RafflesArgentina\RestfulController\RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="0.034473">
-        <testcase name="testIndexRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="14" assertions="0" time="0.002447">
+      <testsuite name="RafflesArgentina\RestfulController\RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="0.066563">
+        <testcase name="testIndexRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="14" assertions="0" time="0.004909">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testIndexRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -277,7 +277,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testIndexRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="31" assertions="0" time="0.002359">
+        <testcase name="testIndexRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="31" assertions="0" time="0.005273">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testIndexRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -293,7 +293,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testCreateRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="51" assertions="0" time="0.002002">
+        <testcase name="testCreateRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="51" assertions="0" time="0.003615">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testCreateRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -309,7 +309,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="65" assertions="0" time="0.002081">
+        <testcase name="testStoreRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="65" assertions="0" time="0.004461">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testStoreRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -325,7 +325,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testShowRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="78" assertions="0" time="0.001896">
+        <testcase name="testShowRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="78" assertions="0" time="0.004884">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testShowRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -341,7 +341,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testShowRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="94" assertions="0" time="0.001906">
+        <testcase name="testShowRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="94" assertions="0" time="0.003539">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testShowRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -357,7 +357,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testShowRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="111" assertions="0" time="0.002744">
+        <testcase name="testShowRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="111" assertions="0" time="0.002956">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testShowRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -373,7 +373,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testEditRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="121" assertions="0" time="0.002224">
+        <testcase name="testEditRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="121" assertions="0" time="0.004227">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testEditRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -389,7 +389,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testEditRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="137" assertions="0" time="0.002353">
+        <testcase name="testEditRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="137" assertions="0" time="0.004290">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testEditRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -405,7 +405,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testEditRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="154" assertions="0" time="0.002154">
+        <testcase name="testEditRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="154" assertions="0" time="0.003743">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testEditRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -421,7 +421,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="164" assertions="0" time="0.002192">
+        <testcase name="testUpdateRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="164" assertions="0" time="0.004258">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testUpdateRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -437,7 +437,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="180" assertions="0" time="0.001968">
+        <testcase name="testUpdateRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="180" assertions="0" time="0.004718">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testUpdateRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -453,7 +453,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="197" assertions="0" time="0.002055">
+        <testcase name="testUpdateRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="197" assertions="0" time="0.003180">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testUpdateRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -469,7 +469,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testDestroyRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="207" assertions="0" time="0.002158">
+        <testcase name="testDestroyRoute" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="207" assertions="0" time="0.003044">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testDestroyRoute
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -485,7 +485,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testDestroyRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="222" assertions="0" time="0.002067">
+        <testcase name="testDestroyRouteWithUseSoftDeletes" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="222" assertions="0" time="0.004414">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testDestroyRouteWithUseSoftDeletes
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -501,7 +501,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testDestroyRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="238" assertions="0" time="0.001867">
+        <testcase name="testDestroyRouteWithInexistentModel" class="RafflesArgentina\RestfulController\RestfulControllerTest" classname="RafflesArgentina.RestfulController.RestfulControllerTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/ResourceControllerTest.php" line="238" assertions="0" time="0.005051">
           <error type="Error">RafflesArgentina\RestfulController\RestfulControllerTest::testDestroyRouteWithInexistentModel
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -518,8 +518,8 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
       </testsuite>
-      <testsuite name="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="0.032965">
-        <testcase name="testPostNonMultipleFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="17" assertions="0" time="0.001885">
+      <testsuite name="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="0.067462">
+        <testcase name="testPostNonMultipleFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="17" assertions="0" time="0.003134">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostNonMultipleFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -535,7 +535,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostHasOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="38" assertions="0" time="0.001950">
+        <testcase name="testPostHasOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="38" assertions="0" time="0.004762">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostHasOneFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -551,7 +551,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostMorphOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="61" assertions="0" time="0.002088">
+        <testcase name="testPostMorphOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="61" assertions="0" time="0.003270">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostMorphOneFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -567,7 +567,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostBelongsToFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="84" assertions="0" time="0.002125">
+        <testcase name="testPostBelongsToFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="84" assertions="0" time="0.003277">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostBelongsToFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -583,7 +583,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostHasManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="109" assertions="0" time="0.002127">
+        <testcase name="testPostHasManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="109" assertions="0" time="0.006297">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostHasManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -599,7 +599,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostMorphManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="133" assertions="0" time="0.001867">
+        <testcase name="testPostMorphManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="133" assertions="0" time="0.003449">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostMorphManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -615,7 +615,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostBelongsToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="159" assertions="0" time="0.001950">
+        <testcase name="testPostBelongsToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="159" assertions="0" time="0.002897">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostBelongsToManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -631,7 +631,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPostMorphToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="185" assertions="0" time="0.001920">
+        <testcase name="testPostMorphToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="185" assertions="0" time="0.006017">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPostMorphToManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -647,7 +647,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutNonMultipleFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="211" assertions="0" time="0.001850">
+        <testcase name="testPutNonMultipleFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="211" assertions="0" time="0.004897">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutNonMultipleFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -663,7 +663,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutHasOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="231" assertions="0" time="0.002604">
+        <testcase name="testPutHasOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="231" assertions="0" time="0.003176">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutHasOneFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -679,7 +679,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutMorphOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="252" assertions="0" time="0.002196">
+        <testcase name="testPutMorphOneFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="252" assertions="0" time="0.003502">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutMorphOneFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -695,7 +695,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutBelongsToFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="273" assertions="0" time="0.001945">
+        <testcase name="testPutBelongsToFileUpload" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="273" assertions="0" time="0.005554">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutBelongsToFileUpload
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -711,7 +711,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutHasManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="295" assertions="0" time="0.001864">
+        <testcase name="testPutHasManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="295" assertions="0" time="0.004187">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutHasManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -727,7 +727,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutMorphManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="317" assertions="0" time="0.002034">
+        <testcase name="testPutMorphManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="317" assertions="0" time="0.003763">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutMorphManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -743,7 +743,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutBelongsToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="339" assertions="0" time="0.001954">
+        <testcase name="testPutBelongsToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="339" assertions="0" time="0.006148">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutBelongsToManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -759,7 +759,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testPutMorphToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="361" assertions="0" time="0.002606">
+        <testcase name="testPutMorphToManyFileUploads" class="RafflesArgentina\RestfulController\WorksWithFileUploadsTest" classname="RafflesArgentina.RestfulController.WorksWithFileUploadsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithFileUploadsTest.php" line="361" assertions="0" time="0.003132">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithFileUploadsTest::testPutMorphToManyFileUploads
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -776,8 +776,8 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
       </testsuite>
-      <testsuite name="RafflesArgentina\RestfulController\WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" tests="18" assertions="0" errors="18" warnings="0" failures="0" skipped="0" time="0.040496">
-        <testcase name="testStoreHasOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="14" assertions="0" time="0.002608">
+      <testsuite name="RafflesArgentina\RestfulController\WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" tests="18" assertions="0" errors="18" warnings="0" failures="0" skipped="0" time="0.092807">
+        <testcase name="testStoreHasOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="14" assertions="0" time="0.007880">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreHasOne
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -793,7 +793,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreMorphOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="50" assertions="0" time="0.002527">
+        <testcase name="testStoreMorphOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="50" assertions="0" time="0.004401">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreMorphOne
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -809,7 +809,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreBelongsTo" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="90" assertions="0" time="0.002075">
+        <testcase name="testStoreBelongsTo" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="90" assertions="0" time="0.003110">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreBelongsTo
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -825,7 +825,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreHasMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="127" assertions="0" time="0.002126">
+        <testcase name="testStoreHasMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="127" assertions="0" time="0.007122">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreHasMany
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -841,7 +841,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreMorphMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="188" assertions="0" time="0.002027">
+        <testcase name="testStoreMorphMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="188" assertions="0" time="0.006142">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreMorphMany
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -857,7 +857,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreBelongsToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="249" assertions="0" time="0.002310">
+        <testcase name="testStoreBelongsToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="249" assertions="0" time="0.009055">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreBelongsToManyExistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -873,7 +873,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreBelongsToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="322" assertions="0" time="0.002368">
+        <testcase name="testStoreBelongsToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="322" assertions="0" time="0.004093">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreBelongsToManyInexistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -889,7 +889,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreMorphToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="383" assertions="0" time="0.002296">
+        <testcase name="testStoreMorphToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="383" assertions="0" time="0.003699">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreMorphToManyExistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -905,7 +905,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testStoreMorphToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="456" assertions="0" time="0.001973">
+        <testcase name="testStoreMorphToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="456" assertions="0" time="0.003143">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testStoreMorphToManyInexistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -921,7 +921,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateHasOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="517" assertions="0" time="0.002248">
+        <testcase name="testUpdateHasOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="517" assertions="0" time="0.003131">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateHasOne
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -937,7 +937,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateMorphOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="544" assertions="0" time="0.001927">
+        <testcase name="testUpdateMorphOne" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="544" assertions="0" time="0.003248">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateMorphOne
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -953,7 +953,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateBelongsTo" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="571" assertions="0" time="0.003613">
+        <testcase name="testUpdateBelongsTo" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="571" assertions="0" time="0.006308">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateBelongsTo
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -969,7 +969,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateHasMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="600" assertions="0" time="0.002324">
+        <testcase name="testUpdateHasMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="600" assertions="0" time="0.007257">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateHasMany
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -985,7 +985,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateMorphMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="654" assertions="0" time="0.001867">
+        <testcase name="testUpdateMorphMany" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="654" assertions="0" time="0.006082">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateMorphMany
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -1001,7 +1001,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateBelongsToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="708" assertions="0" time="0.002144">
+        <testcase name="testUpdateBelongsToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="708" assertions="0" time="0.003886">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateBelongsToManyExistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -1017,7 +1017,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateBelongsToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="781" assertions="0" time="0.001893">
+        <testcase name="testUpdateBelongsToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="781" assertions="0" time="0.003755">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateBelongsToManyInexistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -1033,7 +1033,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateMorphToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="842" assertions="0" time="0.001973">
+        <testcase name="testUpdateMorphToManyExistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="842" assertions="0" time="0.005428">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateMorphToManyExistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 
@@ -1049,7 +1049,7 @@ Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 /Users/mpatronelli/Desarrollo/l8-restful-controller/vendor/orchestra/testbench-core/src/TestCase.php:43
 /Users/mpatronelli/Desarrollo/l8-restful-controller/tests/BaseTest.php:12</error>
         </testcase>
-        <testcase name="testUpdateMorphToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="915" assertions="0" time="0.002196">
+        <testcase name="testUpdateMorphToManyInexistent" class="RafflesArgentina\RestfulController\WorksWithRelationsTest" classname="RafflesArgentina.RestfulController.WorksWithRelationsTest" file="/Users/mpatronelli/Desarrollo/l8-restful-controller/tests/WorksWithRelationsTest.php" line="915" assertions="0" time="0.005066">
           <error type="Error">RafflesArgentina\RestfulController\WorksWithRelationsTest::testUpdateMorphToManyInexistent
 Error: Class 'Orchestra\Database\ConsoleServiceProvider' not found
 

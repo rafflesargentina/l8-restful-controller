@@ -1,10 +1,10 @@
 <?php
 
-namespace RafflesArgentina\ResourceController\Repositories;
+namespace RafflesArgentina\RestfulController\Repositories;
 
 use Caffeinated\Repository\Repositories\EloquentRepository;
 
-use RafflesArgentina\ResourceController\Models\User;
+use RafflesArgentina\RestfulController\Models\User;
 
 class TestRepository extends EloquentRepository
 {
